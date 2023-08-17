@@ -524,7 +524,7 @@ styles = [
 ]
 
 styles = {k['name']: (k['prompt'], k['negative_prompt']) for k in styles}
-default_style = styles['None']
+default_style = styles['官方-无风格']
 style_keys = list(styles.keys())
 
 
